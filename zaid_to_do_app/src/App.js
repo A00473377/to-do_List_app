@@ -22,7 +22,7 @@ function App() {
 
     const toggleComplete = id => {
         const newTodos = todos.map((todo, index) => index === id ? { ...todo, completed: !todo.completed } : todo);
-        // setTodos(newTodos);
+        setTodos(newTodos);
         localStorage.setItem('todos', JSON.stringify(newTodos));
     }
 

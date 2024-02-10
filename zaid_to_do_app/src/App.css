@@ -12,7 +12,11 @@ button{
 }
 
 body {
-  background: #242327 !important;
+  /* background: #242327 !important; */
+  background-image: url('backgroundimage.jpg'); /* Replace 'path/to/your/image.jpg' with the path to your image file */
+  background-size:auto; /* Cover the entire background */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,10 +51,8 @@ h1 {
 .todo-input {
   outline: none;
   background: none;
-  border: 1px solid #8758ff;
+  border: 1px solid #939996;
   padding: 0.5rem 1rem;
-  /* margin-top: 1rem; */
-  /* margin-bottom: 2rem; */
   width: 90%;
   color: #fff;
 }
@@ -71,7 +73,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #8758ff;
+  background: #818080;
   color: #fff;
   padding: 0.75rem 1rem;
   border-radius: 5px;
