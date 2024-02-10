@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPenToSquare } from '@fortawesome/free-solid-svg-icons'
 import { faTrash } from '@fortawesome/free-solid-svg-icons'
 
-export const Todo = ({task, deleteTodo, editTodo, toggleComplete}) => {
+export const Todo = ({task, deleteTodo, toggleComplete}) => {
   return (
     <div className="Todo">
         <div className='d-flex justify-content-center align-items-center'>

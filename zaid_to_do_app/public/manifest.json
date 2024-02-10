@@ -1,6 +1,11 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "name": "To-do List app",
+  "short_name": "TODO",
+  "description": "Created by zaid!",
+  "scope": ".",
+  "orientation": "portrait",
+  "dir": "ltr",
+  "lang": "en-CA",
   "icons": [
     {
       "src": "favicon.ico",
