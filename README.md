@@ -1,2 +1,2 @@
-# pwa_assignment
-Repo containing the code for the solution of PWA assignment
+TO-DO LIST APP
+Repo contains code for To-Do App along with PWA.
